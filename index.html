@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>سوپر اپلیکیشن اسنپ|سامانه هوشمند حمل و نقل|تاکسی اینترنتی</title>
+        <link rel="shortcut icon" href="./assets/images/download.png" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/botsrap.min.css">
+        <link rel="stylesheet" href="./assets/css/font.css">
+    </head>
+    <body dir="rtl">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/images/snappTextLogo.webp" alt="snapp-logo">
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">ثبت نام راننده اسنپ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">اسنپ پی (سرویس اعتباری)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">باشگاه رانندگان</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">پنل سازمانی</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">بلاگ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">درباره اسنپ</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    سوپر اپ اسنپ
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            درخواست تاکسی
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            پیک موتوری
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            سفارش آنلاین غذا اسنپ فود
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            سوپرمارکت آنلاین اسنپ مارکت
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            بلیط هواپیما اسنپ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            اسنپ هتل
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            رزرو بلیط قطار
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            رزرو بلیط اتوبوس
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            درخواست وانت بار
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            خدمات اسباب‌کشی
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            فروشگاه اسنپ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            اسنپ بیمه
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            پزشک و مشاور
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            اسنپ پرو
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            اسنپ کلاب
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">سرمایه‌گذاری</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">خرید شارژ و اینترنت</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="d-flex justify-content-center align-item-center flex-wrap mb-5">
+                <div class="p-2 flex-grow-1 flex-wrap">
+                    <p style="font-size: 1.5rem; font-weight: bold;">
+                        تجربه‌ی زندگی راحت‌تر، سریع‌تر و
+                        <br>
+                        به‌صرفه‌تر با سوپراپلیکیشن اسنپ!
+                        <br>
+                        <br>
+                    </p>
+                    <p>از درخواست خودرو تا سفارش غذا، خرید سوپرمارکتی، رزرو بلیت سفر و... را با اسنپ انجام دهید.</p>
+                    <br>
+                    <button type="button" class="btn btn-success rounded-2 ">ورود به وب اپلیکیشن</button>
+                    <button type="button" class="btn btn-light rounded-2 ">دانلود برنامه</button>
+                </div>
+                <div class="p-2">
+                    <img src="./assets/images/newheroimage.webp" alt="logo" style="width: 300px;">
+                </div>
+            </div>
+            <h5>یک اپلیکیشن، برای تمام نیازها</h5>
+            <div class="grid text-center d-flex  align-items-center gap-5 flex-wrap my-5">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/images/sarmaye-gozari (1).png" alt="logo" style="width: 100px;">
+                    <p>
+                        پیشنهادی
+                    </p>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/images/snapp (1).png" alt="logo" style="width: 100px;">
+                    <p>حمل و نقل</p>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/images/parvaz-dakheli (1).png" alt="" style="width: 100px;">
+                    <p>گردشگری</p>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/images/ghaza (1).png" alt="" style="width: 100px;">
+                    <p>سرویس غذا</p>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/images/service-etebari (1).png" alt="" style="width: 100px;">
+                    <p>سرویس اسنپ پی</p>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/images/bimeh (1).png" alt="" style="width: 100px;">
+                    <p>سرویس بیمه</p>
+                </div>
+            </div>
+            <div class="container text-center mb-5">
+                <div class="row row-cols-3">
+                    <div class="col d-flex justify-content-center align-items-center gap-5 flex-wrap bg-body-secondary rounded-3 bor border border-white border border-5">
+                        <p>
+                            <strong>
+                                تاکسی اینترنتی
+                            </strong>
+                            <br>
+                            درخواست آنلاین خودرو
+                        </p>
+                        <img src="./assets/images/snapp.png" alt="logo" style="width: 100px;">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center gap-5 flex-wrap bg-body-secondary rounded-3 bor border border-white border border-5">
+                        <p>
+                            <strong>
+                                اسنپ فود
+                            </strong>
+                            <br>
+                            سفارش آنلاین غذا، نان و شیرینی
+                        </p>
+                        <img src="./assets/images/ghaza (1).png" alt="logo" style="width: 100px;">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center gap-5 flex-wrap bg-body-secondary rounded-3 bor border border-white border border-5">
+                        <p>
+                            <strong>
+                                سوپرمارکت آنلاین اسنپ
+                            </strong>
+                            <br>
+                            تهیه اقلام روزانه با اسنپ مارکت
+                        </p>
+                        <img src="./assets/images/supermarket.png" alt="logo" style="width: 100px;">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center gap-5 flex-wrap bg-body-secondary rounded-3 bor border border-white border border-5">
+                        <p>
+                            <strong>پیک موتوری</strong>
+                            <br>
+                            حمل و نقل انواع بسته
+                        </p>
+                        <img src="./assets/images/snapp-box.png" alt="logo" style="width: 100px;">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center gap-5 flex-wrap bg-body-secondary rounded-3 bor border border-white border border-5">
+                        <p>
+                            <strong>اسنپ‌ پی</strong>
+                            <br>
+                            سرویس اعتباری اسنپ
+                        </p>
+                        <img src="./assets/images/service-etebari.png" alt="logo" style="width: 100px;">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center gap-5 flex-wrap bg-body-secondary rounded-3 bor border border-white border border-5">
+                        <p>
+                            <strong>خرید بلیط هواپیما</strong>
+                            <br>
+                            سرویس بلیط پرواز اسنپ
+                        </p>
+                        <img src="./assets/images/parvaz-dakheli (1).png" alt="logo" style="width: 100px;">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center gap-5 flex-wrap bg-body-secondary rounded-3 bor border border-white border border-5">
+                        <p>
+                            <strong>رزرو هتل</strong>
+                            <br>
+                            رزرو آنلاین هتل
+                        </p>
+                        <img src="./assets/images/hotel-dakheli.png" alt="logo" style="width: 100px;">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center gap-5 flex-wrap bg-body-secondary rounded-3 bor border border-white border border-5">
+                        <p>
+                            <strong>اسنپ بیمه</strong>
+                            <br>
+                            خرید آنلاین با اسنپ بیمه
+                        </p>
+                        <img src="./assets/images/bimeh.png" alt="logo" style="width: 100px;">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center gap-5 flex-wrap bg-body-secondary rounded-3 bor border border-white border border-5">
+                        <p>
+                            <strong>
+                                ثبت نام راننده
+                            </strong>
+                            <br>
+                            ثبت نام تاکسی اینترنتی اسنپ
+                        </p>
+                        <img src="./assets/images/dswithbadge2.webp" alt="logo" style="width: 100px;">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex p-2 justify-content-center">
+                <img src="./assets/images/Hotel-Rtl.webp" alt="logo" style="width: 100%;">
+            </div>
+            <div class="d-flex p-2 d-flex flex-wrap justify-content-center flex-column align-items-center bg-body-secondary">
+                <p style="text-align: center;font-size: 1.5rem;">
+                    <strong>در کمتر از ۱۰ دقیقه ثبت‌نام کنید و به ناوگان اسنپ بپیوندید.</strong>
+                    <br>
+                    <br>
+                    بدون نیاز به مراجعه‌ی حضوری، از طریق این صفحه، تمام مراحل ثبت‌نام را اینترنتی انجام دهید
+                </p>
+                <br>
+                <button type="button" class="btn btn-success">ثبت نام رانندگان</button>
+                <br>
+                <video
+                    controls
+                    autoplay
+                    loop
+                    muted
+                    src="./assets/video/snapp.mp4"
+                    style="width: 100%;"
+                ></video>
+            </div>
+            <div class="container text-center mb-5 mt-5 bg-body-secondary d-flex flex-wrap">
+                <div class="row row-cols-2">
+                    <div class="col rounded-3 bor border border-white border border-5">
+                        <img src="./assets/images/180x100-income.png" alt="logo">
+                        <p>
+                            <strong>
+                                درآمد تضمینی + پاداش‌های ماهانه و هفتگی
+                            </strong>
+                            <br>
+                            با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان تسویه در لحظه می‌توانید با
+                            <br>
+                            شرکت در طرح‌های تشویقی مختلف، درآمد خود را افزایش دهید.
+                        </p>
+                    </div>
+                    <div class="col rounded-3 bor border border-white border border-5">
+                        <img src="./assets/images/180x100-hour.png" alt="logo">
+                        <p>
+                            <strong>
+                                ساعت کاری دلخواه
+                            </strong>
+                            <br>
+                            فعالیت در ناوگان اسنپ محدودیت زمانی ندارد و می‌توانید فعالیت خود را در هر ساعت از
+                            <br>
+                            شبانه‌روز و متناسب با برنامه‌ی زندگی‌تان شخصی‌سازی کنید.
+                        </p>
+                    </div>
+                    <div class="col rounded-3 bor border border-white border border-5">
+                        <img src="./assets/images/180x100-benefits.png" alt="logo">
+                        <p>
+                            <strong>
+                                مزایا و خدمات باشگاه رانندگان
+                            </strong>
+                            <br>
+                            در باشگاه رانندگان اسنپ می‌توانید از تسهیلات و خدمات متنوعی از جمله خدمات خودرویی،
+                            <br>
+                            خدمات درمانی و همچنین خدمات رفاهی و آموزشی بهره‌مند شوید.
+                        </p>
+                    </div>
+                    <div class="col rounded-3 bor border border-white border border-5">
+                        <img src="./assets/images/180x100-carfix.png" alt="logo">
+                        <p>
+                            <strong>
+                                کار‌فیکس
+                            </strong>
+                            <br>
+                            باشگاه رانندگان اسنپ به‌تازگی سرویس جدید «اسنپ کارفیکس» را برای سهولت دسترسی کاربران
+                            <br>
+                            راننده به انواع خدمات خودرویی راه‌اندازی کرده است.
+                        </p>
+                    </div>
+                    <div class="col rounded-3 bor border border-white border border-5">
+                        <img src="./assets/images/safety.svg" alt="logo">
+                        <p>
+                            <strong>
+                                امنیت سفر کاربران راننده در اسنپ
+                            </strong>
+                            <br>
+                            اسنپ با ارائه سرویس امنیت سفر در اپلیکیشن رانندگان و بهبود مستمر امکانات امنیتی این
+                            <br>
+                            سرویس، تلاش می‌‌کند تجربه سفر با اسنپ برای کاربران راننده امن‌ و مطمئن باشد.
+                        </p>
+                    </div>
+                    <div class="col rounded-3 bor border border-white border border-5">
+                        <img src="./assets/images/support.svg" alt="logo">
+                        <p>
+                            <strong>
+                                پشتیبانی ۲۴ ساعته و سریع
+                            </strong>
+                            <br>
+                            تیم پشتیبانی اسنپ در تمامی ساعت‌های شبانه‌روز پاسخگوی سوال‌ها و مشکلات کاربران راننده
+                            <br>
+                            است. بخش «پشتیبانی» در اپلیکیشن رانندگان، سریع‌ترین راه ارتباطی شما با تیم پشتیبانی
+                            <br>
+                            اسنپ است
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h5>
+                سفارش آنلاین غذا با اسنپ فود
+            </h5>
+            <div class="container my-5">
+                <div class="d-flex flex-wrap">
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="card border-0 rounded-4 shadow overflow-hidden" style="height: 150px;">
+                            <div class="bg-danger text-white d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <div class="text-center">
+                                    <h6 class="text-warning fw-bold mb-2">سفارش آنلاین غذا</h6>
+                                    <small class="fw-bold">با اسنپ فود، سریع و راحت!</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around p-2" style="height: 75px;">
+                                <img
+                                    src="./assets/images/snapp-food.png"
+                                    width="45"
+                                    height="45"
+                                    class="rounded-3"
+                                    alt="logo"
+                                >
+                                <span class="fw-bold">سفارش آنلاین غذا</span>
+                                <button class="btn btn-outline-success btn-sm fw-bold">سفارش دهید</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5>تازه‌ترین‌های وبلاگ اسنپ</h5>
+            <br>
+            <div class="container text-center my-5">
+                <div class="row">
+                    <div class="col flex-wrap">
+                        <img
+                            src="./assets/images/Blog-header-1600x400-1.jpg"
+                            alt="logo"
+                            class="rounded-3"
+                            style="width: 300px;height: 130px;"
+                        >
+                        <p>
+                            <strong>
+                                سرویس «سفر اشتراکی»
+                                <br>
+                                اسنپ،‌ به‌صرفه‌تر و پایدارتر
+                            </strong>
+                            <br>
+                            <br>
+                            سرویس سفر اشتراکی راهکاری مناسب برای کاهش هزینه‌ها،
+                            <br>
+                            به ویژه
+                            در ساعات اوج ترافیک است.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img
+                            src="./assets/images/Layer-17.jpg"
+                            alt="logo"
+                            class="rounded-3"
+                            style="width: 300px;"
+                        >
+                        <p>
+                            <strong>
+                                افزایش امنیت کاربران راننده
+                                <br>
+                                اسنپ با سرویس «امنیت سفر»
+                            </strong>
+                            <br>
+                            <br>
+                            اسنپ با معرفی سرویس «امنیت سفر» به کاربران مسافر این امکان
+                            <br>
+                            را داده تا در صورت بروز هرگونه مشکل یا احساس ناامنی، به طور
+                            <br>
+                            مستقیم با تیم امنیت سفر تماس بگیرند،...
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img
+                            src="./assets/images/PR_Cab_Blog-Cover_1007-scaled.jpg"
+                            alt="logo"
+                            class="rounded-3"
+                            style="width: 300px;"
+                        >
+                        <p>
+                            <strong>
+                                ۱۶ باور اشتباه درباره سفرهای اسنپی
+                            </strong>
+                            <br>
+                            <br>
+                            شاید هنگام استفاده از اسنپ سوال‌هایی برای‌تان پیش آمده باشد
+                            <br>
+                            که پاسخش را نمی‌دانید؛...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-4 flex-wrap align-items-center justify-content-center my-5">
+                <a style="color: black;" class="text-decoration-none" href="#">تماس با ما</a>
+                <a style="color: black;" class="text-decoration-none" href="#">
+                    درباره ما
+                </a>
+                <a style="color: black;" class="text-decoration-none" href="#">
+                    کد تخفیف اسنپ
+                </a>
+                <a style="color: black;" class="text-decoration-none" href="#">ثبت نام راننده اسنپ</a>
+                <a style="color: black;" class="text-decoration-none" href="#">
+                    باشگاه رانندگان
+                </a>
+                <a style="color: black;" class="text-decoration-none" href="#">
+                    سوالات متداول
+                </a>
+                <a style="color: black;" class="text-decoration-none" href="#">پنل سازمانی</a>
+                <a style="color: black;" class="text-decoration-none" href="#">شرایط و قوانین</a>
+                <a style="color: black;" class="text-decoration-none" href="#">
+                    بلاگ
+                </a>
+                <a style="color: black;" class="text-decoration-none" href="#">فرصت‌های شغلی</a>
+            </div>
+            <div class="d-flex gap-5 flex-wrap justify-content-center align-items-center">
+                <a href="#">
+                    <img src="./assets/images/Instagram.svg" alt="logo" style="width: 30px;">
+                </a>
+                <a href="#">
+                    <img src="./assets/images/Linkedin.svg" alt="logo" style="width: 30px;">
+                </a>
+                <a href="#">
+                    <img src="./assets/images/Telegram.svg" alt="logo" style="width: 30px;">
+                </a>
+                <a href="#">
+                    <img src="./assets/images/Twitter.svg" alt="logo" style="width: 30px;">
+                </a>
+                <a href="#">
+                    <img src="./assets/images/Youtube.svg" alt="logo" style="width: 30px;">
+                </a>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 my-5">
+                <a href="#"><img src="./assets/images/namad (1).png" alt="logo"></a>
+                <a href="#"><img src="./assets/images/e-namad.png" alt="logo"></a>
+            </div>
+        </main>
+        <script src="./assets/js/boostrap.min.js"></script>
+    </body>
+</html>
